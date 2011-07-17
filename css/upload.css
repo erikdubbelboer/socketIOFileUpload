@@ -3,6 +3,7 @@
 width: 400px;
 height: 400px;
 background-color: #00e;
+cursor: pointer;
 }
 
 #upload.drop {
