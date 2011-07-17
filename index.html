@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset=utf-8>
+
+<title>Socket.io File Upload Example</title>
+
+<link rel=stylesheet href="/css/upload.css" media=all>
+
+<script src="/socket.io/socket.io.js"></script>
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.js"></script>
+<script src="/js/upload.js"></script> 
+
+</head>
+<body>
+
+<h2>Upload</h2>
+
+<div id="upload">
+<input type="file" id="fileupload" multiple="true">
+</div>
+
+<p id="info">
+Drag one or more file to the blue square to upload them.<br>
+Or click the square to select multiple files to upload.
+</p>
+
+<h2>Uploaded files</h2>
+
+<div id="uploaded"></div>
+
+</body>
+</html>

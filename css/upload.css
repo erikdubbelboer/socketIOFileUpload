@@ -1,0 +1,21 @@
+
+#upload {
+width: 400px;
+height: 400px;
+background-color: #00e;
+}
+
+#upload.drop {
+background-color: #0e0;
+}
+
+#fileupload {
+position: relative;
+top: 0;
+left: 0;
+width: 400px;
+height: 400px;
+opacity: 0;
+background-color: red;
+}
+
